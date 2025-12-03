@@ -1,2 +1,7 @@
-[TOC]
-# [test](post/test.md)
+---
+layout: home
+---
+
+# Welcome to my Blogs!
+
+### [test](post/test.md)
