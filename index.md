@@ -1,3 +1,3 @@
 # Welcome to my Blogs!
 
-### [test](post/test.md)
+### [test](test.md)
