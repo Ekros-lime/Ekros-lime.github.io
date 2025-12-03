@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reading: 3D数学基础 ch. 4 矩阵简介
+title: "Reading: 3D数学基础 ch. 4 矩阵简介"
 date: 2025-12-03
 ---
 
