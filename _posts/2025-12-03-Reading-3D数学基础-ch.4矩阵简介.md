@@ -16,7 +16,7 @@ r行c列的矩阵(Matrix)，称为是r x c矩阵。具有相同行数与列数�
 
 矩阵M可以与标量k相乘，得到与M相同维度的矩阵。M = [m1, m2, m3]; kM = k[m1, m2, m3] = [km1, km2, km3]。
 
-在某些情况下，可以将两个矩阵相乘，一个**r** x **n**的矩阵A可以乘一个**n** x **c**的矩阵B，结果是一个**r** x **c**的矩阵。矩阵的乘法计算方式为，一个r x n的矩阵A乘n x c的矩阵B，得到r x n的矩阵C，C中的每个元素c<sub>ij</sub>等于$\sum_{k=1}^n{a_{ik}}{b_{kj}}，比如c<sub>24</sub>等于A 2行和B 4列中元素的点积(a<sub>21</sub>b<sub>14</sub> + a<sub>22</sub>b<sub>42</sub>+...+a<sub>2k</sub>b<sub>k4</sub>)。
+在某些情况下，可以将两个矩阵相乘，一个**r** x **n**的矩阵A可以乘一个**n** x **c**的矩阵B，结果是一个**r** x **c**的矩阵。矩阵的乘法计算方式为，一个r x n的矩阵A乘n x c的矩阵B，得到r x n的矩阵C，C中的每个元素c<sub>ij</sub>等于$\sum_{k=1}^n{a_{ik}}{b_{kj}}$，比如c<sub>24</sub>等于A 2行和B 4列中元素的点积(a<sub>21</sub>b<sub>14</sub> + a<sub>22</sub>b<sub>42</sub>+...+a<sub>2k</sub>b<sub>k4</sub>)。
 
 将任何一个矩阵M乘一个方形矩阵S将得到与M大小相同的矩阵(前提是允许相乘)，如果S是单位矩阵I，结果是原始矩阵M：MI = IM = M。
 
