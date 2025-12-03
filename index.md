@@ -5,4 +5,6 @@ title: Home
 
 # Welcome to my Blogs!
 
-### [test](test.html)
+{% for post in site.posts %}
+* [{{ post.title }}]({{ post.url }})
+{% endfor %}
