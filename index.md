@@ -1,2 +1,2 @@
 [TOC]
-# [test](test.md)
+# [test](post/test.md)
